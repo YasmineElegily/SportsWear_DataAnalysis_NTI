@@ -57,7 +57,7 @@ Investigating Target Audience, Gender and Customer Preferences:
 Different genders might have varying color preferences.
 Exploring the correlation between color intensities and gender-specific purchases could be insightful.
 
-Looks like sports wear are mostly gender neutral products
+Looks like sportswear are mostly gender-neutral products
 
 Promotion Effectiveness:
 
@@ -92,13 +92,13 @@ Main correlation matrix insights:
 #### Spliiting the data to input(X) and output(y) then do train_test_split
 
 #### Data Normalization
-Since our data has a lot of outliers, I will not be using MinMaxScaler, but instead, I will use Robust Scaler
+Since our data has a lot of outliers, I will not be using MinMaxScaler, instead, I will use Robust Scaler
 
 #### Resampling Training data
 
 
 ## Data Modeling
-I chose XGBOOST model to solve our problem and here's why:
+I chose the XGBOOST model to solve our problem and here's why:
 
 #### XGBoost Features
 XGBoost is a widespread implementation of gradient boosting.
@@ -116,7 +116,7 @@ Execution speed is crucial because it's essential to working with large datasets
 Model performance is also essential because it allows you to create models that can perform better than other models. XGBoost has been compared to different algorithms such as random forest (RF), gradient boosting machines (GBM), and gradient boosting decision trees (GBDT). These comparisons show that XGBoost outperforms these other algorithms in execution speed and model performance.
 
 #### What Algorithm Does XGBoost Use?
-Gradient boosting is a ML algorithm that creates a series of models and combines them to create an overall model that is more accurate than any individual model in the sequence.
+Gradient boosting is a Machine Learning algorithm that creates a series of models and combines them to create an overall model that is more accurate than any individual model in the sequence.
 
 It supports both regression and classification predictive modeling problems.
 
@@ -146,13 +146,13 @@ XGBClassifier(base_score=None, booster=None, callbacks=None,
  Best parameters:
 {'learning_rate': 0.1, 'n_estimators': 600}
 
-precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
            0       0.87      0.96      0.91     28280
            1       0.40      0.18      0.24      4720
 
     accuracy                           0.84     33000
-   macro avg       0.64      0.57      0.58     33000
-weighted avg       0.81      0.84      0.82     33000
+    macro avg      0.64      0.57      0.58     33000
+    weighted avg   0.81      0.84      0.82     33000
 
-Next Step: Investigate more ways to increase the recall of the model and it's overall accuracy specially for class label = 1.
+Next Step: Investigate more ways to increase the recall of the model and its overall accuracy, especially for class label = 1.
