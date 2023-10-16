@@ -17,56 +17,53 @@ General data first-look insights:
 
 ## Data Visualization and insights
 
-Investigating the sales relationship with the current and the regular price
-
-How changes in regular and current prices affect sales
+Investigating the sales relationship with the current and the regular price. How changes in regular and current prices affect sales:
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/20bfb6b3-1703-4108-9c15-bbcd8515b87b)
 
-  It is clear that the sales become significantly higher whenever the current_price is lower than the regular_price
+It is clear that the sales become significantly higher whenever the current_price is lower than the regular_price
 
-Sales Analysis
+### Sales Analysis
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/fcb8350e-fa6c-4c3e-a0e1-8837e7edacea)
 
+The highest sales are from the training category, next is the running and football generic. Looks like the sales distribution is not affected by the gender
 
-  The highest sales are from the training category, next is the running and football generic. Looks like the sales distribution is not affected by the gender
-
-Customer Behavior Analysis
+### Customer Behavior Analysis
 
   There is a customer segment noticeable in the 2 graphs that purchases more frequently. We can target this customer segment more by investigating their preferences more and working on a targeted marketing campaign for them.
 
-Promotions Analysis
+## Promotions Analysis
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/9fc7434f-e841-4161-9900-4e37d0e465c8)
 
-# Promotions vs. Sales:
+### Promotions vs. Sales:
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/c943ae39-369a-4a13-92b2-3494b9415b43)
 
 It seems like during promo1 the sales increase to reach a local maxima, unlike during promo2 which has a steady range of sales but not that high.
 
-Apparently, shoes are the favorite product group sold by the company
+Apparently, shoes are the favorite product group sold by the company.
 
-Investigating Target Audience, Gender and Customer Preferences:
+### Investigating Target Audience, Gender, and Customer Preferences:
 
   Different genders might have varying color preferences. Exploring the correlation between color intensities and gender-specific purchases could be insightful. Looks like sportswear is mostly gender-neutral products
 
-Promotion Effectiveness:
+### Promotion Effectiveness:
 
   Certain colors might be more attention-grabbing during promotional campaigns. Analyzing how color intensities impact sales during promo1 and promo2 weeks could provide insights into the effectiveness of promotions.
 
-Product Differentiation:
+### Product Differentiation:
 
   Colors can be used to differentiate products within the same category or product group. Investigating how different color combinations impact sales within the same category could inform product design strategies.
   Conclusion: Can't get insight from visualizing color preferences
 
 
-Data Imbalance Visualization
+## Data Imbalance Visualization
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/7600e385-7eda-4e26-b41c-d3b0607e196f)
 
-Feature Correlation Matrix
+## Feature Correlation Matrix
 
 ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/c756d156-fca4-4a2a-b619-8de2320993dd)
 
@@ -74,7 +71,7 @@ Main correlation matrix insights:
 - Whether the customer decided to buy the product or not (label) is not correlated with the amount of sales of the company.
 - The ratio between the current price and the regular price is positively correlated with the label which is the customer's decision to buy the product. This means whenever there is a discount the customer is more likely to buy.
 
-## Data Preprocessing
+### Data Preprocessing
 
 #### Dropping unnecessary columns for the model
 
@@ -133,4 +130,4 @@ XGBClassifier(base_score=None, booster=None, callbacks=None,
     macro avg      0.64      0.57      0.58     33000
     weighted avg   0.81      0.84      0.82     33000
 
-Next Step: Investigate more ways to increase the recall of the model and its overall accuracy, especially for class label = 1.
+#### Next Step: Investigate more ways to increase the recall of the model and its overall accuracy, especially for class label = 1.
