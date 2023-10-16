@@ -31,6 +31,8 @@ The highest sales are from the training category, next is the running and footba
 
 ### Customer Behavior Analysis
 
+![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/3a869632-5be1-4f4d-bb48-a11c89fec599)
+
   There is a customer segment noticeable in the 2 graphs that purchases more frequently. We can target this customer segment more by investigating their preferences more and working on a targeted marketing campaign for them.
 
 ## Promotions Analysis
@@ -43,21 +45,35 @@ The highest sales are from the training category, next is the running and footba
 
 It seems like during promo1 the sales increase to reach a local maxima, unlike during promo2 which has a steady range of sales but not that high.
 
+![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/8d3632b7-760c-47f2-bad9-7332d245363b)
+
 Apparently, shoes are the favorite product group sold by the company.
+
+![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/112acfa2-3ff1-4b36-a436-6e4f6d7597f6)
+
+Visualizing the variance of outliers in the dataset.
 
 ### Investigating Target Audience, Gender, and Customer Preferences:
 
   Different genders might have varying color preferences. Exploring the correlation between color intensities and gender-specific purchases could be insightful. Looks like sportswear is mostly gender-neutral products
 
+  ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/af76dbb1-e935-4d49-83b8-79f332469bd2)
+
+Looks like sportswear is mostly gender-neutral products.
+
 ### Promotion Effectiveness:
 
   Certain colors might be more attention-grabbing during promotional campaigns. Analyzing how color intensities impact sales during promo1 and promo2 weeks could provide insights into the effectiveness of promotions.
 
+  ![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/db572c7f-0122-4adf-b0f8-cd13110d1d60)
+
 ### Product Differentiation:
 
   Colors can be used to differentiate products within the same category or product group. Investigating how different color combinations impact sales within the same category could inform product design strategies.
-  Conclusion: Can't get insight from visualizing color preferences
+  
+![image](https://github.com/YasmineElegily/SportsWear_DataAnalysis_NTI/assets/69461886/92c6cab6-70c5-4ef4-8a2b-190033c8a7f0)
 
+  Conclusion: Can't get insight from visualizing color preferences
 
 ## Data Imbalance Visualization
 
